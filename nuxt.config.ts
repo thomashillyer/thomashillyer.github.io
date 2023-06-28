@@ -6,7 +6,9 @@ export default defineNuxtConfig({
     // https://github.com/nuxt-modules/plausible
     '@nuxtjs/plausible',
     // https://github.com/nuxt/devtools
-    '@nuxt/devtools'
+    '@nuxt/devtools',
+    // https://github.com/Tahul/pinceau
+    'pinceau/nuxt'
   ],
   app: {
     head: {
@@ -18,4 +20,7 @@ export default defineNuxtConfig({
       FORMSPREE_URL: 'https://formspree.io/f/mrgwzaon',
     },
   },
+  pinceau: {
+    runtime: true,
+  }
 })
