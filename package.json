@@ -18,9 +18,5 @@
     "eslint": "^8.42.0",
     "nuxt": "^3.5.3",
     "pinceau": "^0.19.2"
-  },
-  "dependencies": {
-    "@unocss/reset": "^0.53.4",
-    "vue": "^3.3.4"
   }
 }
