@@ -1,7 +1,7 @@
 export default defineAppConfig({
   alpine: {
     title: 'Thomas Hillyer',
-    description: 'The minimalist blog theme',
+    description: 'Thomas Hillyer is a software engineer based in Seattle.',
     image: {
       src: '/social-card-preview.png',
       alt: 'An image showcasing my project.',
@@ -13,7 +13,7 @@ export default defineAppConfig({
       logo: {
         path: '/logo.svg', // path of the logo
         pathDark: '/logo-dark.svg', // path of the logo in dark mode, leave this empty if you want to use the same logo
-        alt: 'alpine' // alt of the logo
+        alt: 'hillzere' // alt of the logo
       }
     },
     footer: {
