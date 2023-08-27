@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     head: {
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/hillyer_trans_favicon.png' }],
       script: [
-        { src: 'assets/js/anim_extensions.js', lang: 'javascript' }
+        { src: '/js/anim_extensions.js', lang: 'javascript' }
       ],
     },
   },
@@ -27,7 +27,7 @@ export default defineNuxtConfig({
     }
   },
   css: [
-    { src: 'assets/css/style_extensions.css', lang: 'css' }
+    { src: '/css/style_extensions.css', lang: 'css' }
   ],
   build: {
     extractCSS: true
