@@ -8,6 +8,9 @@ export default defineNuxtConfig({
   app: {
     head: {
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/hillyer_trans_favicon.png' }],
+      script: [
+        { src: "assets/js/anim_extensions.js', }
+      ],
     },
   },
   runtimeConfig: {
