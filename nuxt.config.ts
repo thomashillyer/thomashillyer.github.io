@@ -24,7 +24,7 @@ export default defineNuxtConfig({
     }
   },
   css: [
-    { src: '~assets/css/style_extensions.css', lang: 'css' }
+    { src: 'assets/css/style_extensions.css', lang: 'css' }
   ],
   build: {
     extractCSS: true
