@@ -22,5 +22,11 @@ export default defineNuxtConfig({
     alias: {
       unsplash: 'https://images.unsplash.com'
     }
+  },
+  css: [
+    { src: '~assets/css/style_extensions.css', lang: 'css' }
+  ],
+  build: {
+    extractCSS: true
   }
 })
