@@ -1,0 +1,38 @@
+@keyframes strikethrough {
+    0% { 
+        text-decoration: none; 
+    }
+    100% { 
+        text-decoration: line-through; 
+    }
+}
+
+@keyframes fadeOut {
+    0% { 
+        opacity: 1; 
+    }
+    100% { 
+        opacity: 0; 
+    }
+}
+
+@keyframes fadeIn {
+    0% { 
+        opacity: 0; 
+    }
+    100% { 
+        opacity: 1; 
+    }
+}
+
+.strikethrough-animation {
+    animation: strikethrough 0.5s forwards;
+}
+
+.fade-out-animation {
+    animation: fadeOut 0.5s forwards;
+}
+
+.fade-in-animation {
+    animation: fadeIn 0.5s forwards;
+}
