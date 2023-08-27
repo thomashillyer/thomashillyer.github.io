@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     head: {
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/hillyer_trans_favicon.png' }],
       script: [
-        { src: "assets/js/anim_extensions.js', lang: 'javascript' }
+        { src: 'assets/js/anim_extensions.js', lang: 'javascript' }
       ],
     },
   },
