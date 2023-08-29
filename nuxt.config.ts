@@ -8,9 +8,6 @@ export default defineNuxtConfig({
   app: {
     head: {
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/hillyer_trans_favicon.png' }],
-      script: [
-        { src: '/js/anim_extensions.js', lang: 'javascript' }
-      ],
     },
   },
   runtimeConfig: {
@@ -26,10 +23,5 @@ export default defineNuxtConfig({
       unsplash: 'https://images.unsplash.com'
     }
   },
-  css: [
-    { src: '/css/style_extensions.css', lang: 'css' }
-  ],
-  build: {
-    extractCSS: true
-  }
+  css: ['~/assets/css/style_extensions.css'],
 })
