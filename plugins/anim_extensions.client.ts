@@ -20,11 +20,11 @@ export default defineNuxtPlugin(nuxtApp => {
                         textElement!.textContent = "Hillzere";
                         textElement?.classList.remove('fade-out-animation');
                         textElement?.classList.add('fade-in-animation');
-                    }, 500);  // Duration of the fade out animation
+                    }, 1500);  // Duration of the fade out animation
 
-                }, 500);  // Duration of the strikethrough animation
+                }, 1000);  // Duration of the strikethrough animation
 
-            }, 1000);  // 1 second delay before starting the animation
+            }, 2000);  // 1 second delay before starting the animation
         })
     }
 });
