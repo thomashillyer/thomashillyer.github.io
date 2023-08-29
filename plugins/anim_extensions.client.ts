@@ -17,14 +17,14 @@ export default defineNuxtPlugin(nuxtApp => {
 
                     setTimeout(function () {
                         // Replace the text and fade it in
-                        textElement!.textContent = "Hillzere";
+                        textElement!.textContent = "zere";
                         textElement?.classList.remove('fade-out-animation');
                         textElement?.classList.add('fade-in-animation');
-                    }, 1500);  // Duration of the fade out animation
+                    }, 1200);  // Duration of the fade out animation
 
-                }, 1000);  // Duration of the strikethrough animation
+                }, 500);  // Duration of the strikethrough animation
 
-            }, 2000);  // 1 second delay before starting the animation
+            }, 2000);  // 2 second delay before starting the animation
         })
     }
 });
